@@ -7,7 +7,7 @@ A simple image-text retrieval system experimenting with  pre-trained CLIP and AL
 There are many other approaches and models that can be used for this task (e.g. object detection using YOLO, etc.). The goal of this project is to experiment with multi-modal models CLIP and ALIGN and see how they perform in this task.
 
 ## Data
-Using a sample of [Kaggle Room street dataset](https://www.kaggle.com/datasets/mikhailma/house-rooms-streets-image-dataset?resource=download) for testing the model. The dataset contains images of rooms and houses. 
+Using a sample of [Kaggle Room street dataset](https://www.kaggle.com/datasets/mikhailma/house-rooms-streets-image-dataset?resource=download) for testing the model. The dataset contains images of rooms and houses.
 
 ## App
 The app is a simple streamlit app that allows the user to upload an image and verify a set of amenities to detect. The model will predict whether the amenities are present in the image or not.

@@ -13,7 +13,7 @@ uploaded_file = st.file_uploader(":red[Choose an image...]")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, use_column_width=True)
+    st.image(image)
 
     if st.button("Detect amenities"):
         pos_prompts, neg_prompts = create_prompts(amenities)

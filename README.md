@@ -1,4 +1,4 @@
-# image-text-retrieval
+# Amenity Detection using Zero-Shot Classification with CLIP
 
 Detection of amenities in property images using pre-trained CLIP and ALIGN models.
 
@@ -12,7 +12,7 @@ Using a sample of [Kaggle Room street dataset](https://www.kaggle.com/datasets/m
 ## App
 The app is a simple streamlit app that allows the user to upload an image and verify a set of amenities to detect. The model will predict whether the amenities are present in the image or not.
 
-![streamlit_app](<app.png>)
+![app](app_snapshot.png)
 
 ## Installation
 1. Clone the repository

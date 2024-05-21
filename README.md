@@ -1,4 +1,4 @@
-# image-text-retrieval
+# Amenity Detection using Zero-Shot Classification with CLIP
 
 Detection of amenities in property images using pre-trained CLIP and ALIGN models.
 

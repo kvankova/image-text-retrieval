@@ -12,7 +12,7 @@ def FakeConfig():
 def test_create_prompts(FakeConfig):
     prompt_creator = PromptCreator()
     amenities = FakeConfig.amenities
-    pos_prefix = "there is "
+    pos_prefix = "there is"
     pos_prompts, neg_prompts = prompt_creator.create_prompts(
         amenities=amenities, pos_prefix=pos_prefix
     )

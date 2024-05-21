@@ -26,6 +26,8 @@ if uploaded_file is not None:
         pos_prompt, neg_prompt = prompt_creator.create_prompts(
             amenities=amenities, pos_prefix="there is"
         )
+        st.header("Results")
+
         for pos, neg in zip(pos_prompt, neg_prompt):
             probs = model.predict(image=image, prompts=[pos, neg])
 

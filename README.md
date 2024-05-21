@@ -23,9 +23,9 @@ The app is a simple streamlit app that allows the user to upload an image and ve
    ```
 3. Run the app
     ```bash
-    streamlit run src/clip_app.py
+    streamlit run src/app/app.py
     ```
 
 ## References
 1. [CLIP: Contrastive Language–Image Pre-training](https://openai.com/index/clip/)
-2. [ALIGN: A Large-scale ImaGe and Noisy-text embedding](https://arxiv.org/abs/2102.05918)
+2. [Cameron R. Wolfe: Using CLIP to classify images without any labels](https://cameronrwolfe.substack.com/p/using-clip-to-classify-images-without-any-labels-b255bb7205de)

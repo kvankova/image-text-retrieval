@@ -24,7 +24,7 @@ if uploaded_file is not None:
         model = CLIP()
         prompt_creator = PromptCreator()
         pos_prompt, neg_prompt = prompt_creator.create_prompts(
-            amenities=amenities, pos_prefix="there is "
+            amenities=amenities, pos_prefix="there is"
         )
         for pos, neg in zip(pos_prompt, neg_prompt):
             probs = model.predict(image=image, prompts=[pos, neg])
